@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/EuPath-ontology/eupathdb-ontology.svg?branch=master)](https://travis-ci.org/EuPath-ontology/eupathdb-ontology.svg?branch=master)
+[![Build Status](https://travis-ci.org/EuPath-ontology/eupathdb-ontology.svg?branch=master)](https://travis-ci.org/EuPath-ontology/eupathdb-ontology)
 [![DOI](https://zenodo.org/badge/13996/eupath-ontology/eupathdb-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/eupath-ontology/eupathdb-ontology)
 
 # eupathdb-ontology
