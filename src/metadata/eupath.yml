@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/eupath
+
+idspace: EUPATH
+base_url: /obo/eupath
+
+products:
+- eupath.owl: https://raw.githubusercontent.com/eupath-ontology/eupathdb-ontology/master/eupath.owl
+- eupath.obo: https://raw.githubusercontent.com/eupath-ontology/eupathdb-ontology/master/eupath.obo
+
+term_browser: ontobee
+example_terms:
+- EUPATH_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/eupath-ontology/eupathdb-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/eupath-ontology/eupathdb-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/EUPATH?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/eupath-ontology/eupathdb-ontology/master/
